@@ -91,7 +91,7 @@ class App extends React.Component {
           <Input arr={months} handleChange={this.handleMonthChange} val={this.state.month} />
           <Input arr={years} handleChange={this.handleYearChange} val={this.state.year} />
         </div>
-        <button class="custom-btn btn-13">Calculate</button>
+        <button type='submit' class="custom-btn btn-13">Calculate</button>
       </form>
       <article className='flex space-x-4'>
         <h2 className='text-2xl font-semibold text-gray-800'>Your age is</h2>
